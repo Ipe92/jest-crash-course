@@ -1,0 +1,19 @@
+{
+	"name": "jest-crash-course",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"testwatch": "jest --watchAll"
+	},
+	"author": "ipe",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/plugin-transform-modules-commonjs": "^7.15.4",
+		"jest": "^27.2.4"
+	},
+	"dependencies": {
+		"axios": "^0.22.0"
+	}
+}
